@@ -1,48 +1,47 @@
 
-# PROJET SIMPLON - NRJ PREDICT MARROCO
+# PROJET PREDICT ENERGETIQUE AU MARROCO
 
-Ce projet est un support d'apprentissage en Data Analyse et Développement IA, mettant en oeuvre les principales compétences concernant Machine Learning, Web Application, Agile Method...
+Bienvenue dans ce projet de prédiction de la consommation énergétique au Maroc. Ce projet utilise des techniques de machine learning pour estimer la consommation d'énergie, en se basant sur des données historiques.
 
-## Modules (continuer et remplir selon le projet en cours.....)
-
-Le projet est organisé en plusieurs modules :
-
-1. **module1.py** : Describe it.
-
-2. **module2.py** : Describe it.
-
-3. **module3.py** : Ce module contient ... `matplotlib`.
-
-4. **module4.py** : Ce module contient ...
-
-## Prérequis
-### Environnement de projet
-Dans un shell :
-- `python -m venv .venv`
-- `.venv\Scripts\Activate.ps1`
-- `python.exe -m pip install --upgrade pip`
-- `pip install matplotlib numpy tensorflow scikit-learn mlflow`
+## Fonctionnalités 🌟
+- Prédiction de la consommation énergétique basée sur des données historiques.
+- Interface utilisateur interactive pour visualiser les résultats.
+- API RESTful pour accéder aux données et aux prédictions.
 
 **Langage** : Python 3.9
 Les bibliothèques suivantes doivent être installées :
-    - `numpy`
-    - `matplotlib`
 
-Vous pouvez installer ces bibliothèques avec la commande suivante :
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-%23ffffff.svg?style=for-the-badge&logo=Streamlit&logoColor=black)
 
-```bash
-pip install -r requirements.txt
-```
 
-## Exécution
+## Installation 🔧
+1. Clonez le dépôt:
+   ```bash
+   git clone https://github.com/CARDONAJOSE/nom_du_projet.git
+   cd nom_du_projet
+   ```
 
-Pour démarrer, exécutez simplement le fichier `fichier1.py` :
+2. Installez les dépendances:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```bash
-python fichier1.py
-```
+3. Lancez l'API FastAPI:
+   ```bash
+   uvicorn main:app --reload
+   ```
 
-Decribe it here your app.
+4. Lancez l'application Streamlit:
+   ```bash
+   streamlit run app.py
+   ```
 
 ## Structure des fichiers
 
@@ -51,29 +50,39 @@ Voici l'arborescence du projet :
 ```bash
 .
 ├── .venv/
+├── Api/
+│   └── main.py
+|
+├── Data/
+│   ├── processed/
+│   ├── new_power_consumption.csv
+│   ├── pro-datatest.csv
+|   ├── raw/
+│   ├── datsets.csv
+|   ├── power_consumption.csv
+│   └── power_conumption.db
+|
+├── model/
+│   ├── mmscaler.pkl
+│   └── new_linear_model.pkl
+|
+├── notebook/
+│   ├── data-processing.ipynb
+│   └── fastAPI&Lit.ipynb
+|
 ├── public/
-│   └── src/
-├── module/
-│   ├── __pycache__/
-│   ├── grid.py
-│   ├── reponse.py
-│   └── victoire_nul.py
-├── game.py
+│   ├── asset/
+│   ├── archi1.png
+│   ├── archi2.png
+│   └── png_consumption.png
+|
 ├── .gitignore
 ├── readme.md
 ├── requirements.txt
 ```
-
-## Règles
-
-- Règle1.
-- Règle2.
-- Règle3.
-- Règle4.
-
 ## Auteurs
 
-- [Ahmed Bahi](mailto:toto@gmail.com)
-- [José Cardona](mailto:toto@gmail.com)
-- [Jules Ndiyae](mailto:folie@gmail.com)
-- [Yann Paaeho](mailto:paaeho.yann.pro@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-fabian-cardona-hernandez/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yann-paaeho/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-ndiaye-53b52b170/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-fabian-cardona-hernandez/)
