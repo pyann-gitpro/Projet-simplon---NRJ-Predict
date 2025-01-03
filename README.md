@@ -48,7 +48,6 @@ Les bibliothèques suivantes doivent être installées :
 Voici l'arborescence du projet :
 
 ```bash
-.
 ├── .venv/
 ├── Api/
 │   └── main.py
@@ -81,8 +80,14 @@ Voici l'arborescence du projet :
 ├── requirements.txt
 ```
 ## Auteurs
-
+- Jose Cardona
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-fabian-cardona-hernandez/)
+
+- Yann Paaeho
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yann-paaeho/)
+
+- Jule ndiaye
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jules-ndiaye-53b52b170/)
+
+- Ahmed 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jose-fabian-cardona-hernandez/)
